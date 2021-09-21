@@ -12,5 +12,5 @@ class Pokemon(models.Model):
     primary_attack = models.CharField(max_length = 20)
     seconday_attack = models.CharField(max_length = 20)
 
-def __str__(self):
-    return self.name
+    def __str__(self):
+        return self.name
