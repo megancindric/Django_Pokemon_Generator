@@ -8,3 +8,7 @@ class Attacks(models.Model):
     attack_description = models.TextField(max_length = 200)
     status_condition = models.TextField(max_length = 10)
     status_condition_chance = models.DecimalField(max = 1)
+
+
+def __str__(self):
+    return self.attack_name

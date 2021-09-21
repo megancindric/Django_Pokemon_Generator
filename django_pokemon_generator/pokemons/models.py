@@ -11,3 +11,6 @@ class Pokemon(models.Model):
     #TODO link attacks using attack_name, then can query DB to get stats when called
     primary_attack = models.CharField(max_length = 20)
     seconday_attack = models.CharField(max_length = 20)
+
+def __str__(self):
+    return self.name
