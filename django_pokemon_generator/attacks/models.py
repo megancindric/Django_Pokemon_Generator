@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Attacks(models.Model):
+class Attack(models.Model):
     attack_name = models.CharField(max_length = 20)
     attack_power = models.IntegerField()
     attack_type = models.CharField(max_length = 20)
