@@ -9,4 +9,4 @@ def index(request):
     context = {
         "all_pokemon": all_pokemon
     }
-    return render(request, 'pokemons/index.html', context)
+    return render(request,'pokemons/index.html', context)

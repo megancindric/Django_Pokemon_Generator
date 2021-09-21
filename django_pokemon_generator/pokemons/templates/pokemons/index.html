@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block header %}
+Our current Pokedex!
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for pokemon in all_pokemon %}
+        <li><h2>{{pokemon.name}} - TODO: add rows/links for more info?  symbol for type? TBD
+
+
+        </h2></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
